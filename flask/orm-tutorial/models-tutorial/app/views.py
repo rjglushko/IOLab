@@ -11,9 +11,11 @@ def index():
 def create_customer():
     form = CustomerForm()
     if form.validate_on_submit():
-        new_customer = models.Customer(form.company.data,
-                                form.email.data)
-        db.session.add(new_customer)
+        customer = models.Customer(
+                            company = form.company.data,
+                            email = form.email.data)
+        # you will need to add Address here
+        db.session.add(customer)
         db.session.commit()
         return redirect('/customers')
     return render_template('customer.html', form=form)
