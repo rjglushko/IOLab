@@ -11,7 +11,7 @@ The contents of each directory are explained below:
     1. A Microsoft Word document with directions for the lab
     2. The supporting code for the lab
     3. (optionally) the code for the completed lab
-- **Homeworks:** Contains directories (names *do not* correspond to lecture names)
+- **Homework:** Contains directories (names *do not* correspond to lecture names)
   - Each subdirectory contains:
     1. A Microsoft Word document with directions for the homework
     2. The supporting code for the homework
@@ -20,8 +20,8 @@ The contents of each directory are explained below:
 - **Teaching Resources:** Contains material for instructors. These may be PDFs, HTML, or Microsoft Word Documents containing links to external documents that are related to the class as a whole (Material related to a particular course topic should go in the Teaching Resources.docx file with each lecture directory).
 
 ## How to use
-- Teachers
+- [Teachers](Admin\ Instructions/Instructors.md)
 - [Contributors](Admin\ Instructions/Contributors.md)
-- Students
+- [Students](Admin\ Instructions/Students.md)
 
 ## FAQ
